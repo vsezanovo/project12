@@ -1,0 +1,13 @@
+:host ::ng-deep .container{
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    gap: 10px;
+}
+:host ::ng-deep .sticker{
+    width: 200px;
+    height: 200px;
+    background-color: rgb(170, 158, 177);
+    padding: 10px;
+    position: relative;
+}
