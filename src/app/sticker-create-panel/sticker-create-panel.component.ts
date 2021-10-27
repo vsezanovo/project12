@@ -23,11 +23,6 @@ export class StickerCreatePanelComponent implements OnInit {
   date: any
   @Output() stickerCreated = new EventEmitter < Sticker > ();
   addNote(title: string, text: string) {
-    let buf = title.split("")
-    if (buf.length != 0) {
-      buf[0] = buf[0].toUpperCase()
-      title = buf.join("")
-    }
     let now = Date.now();
     this.stickerCreated.emit({
       title: title,
