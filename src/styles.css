@@ -1,7 +1,4 @@
 /* You can add global styles to this file, and also import other style files */
-* {
-  font-family: 'Caveat', cursive;
-}
 
 h2 {
   margin: 0;
@@ -11,7 +8,6 @@ h2 {
   resize: none;
   background-color: rgb(170, 158, 177);
   border: none;
-  font-family: 'Caveat', cursive;
   font-size: 1.8em;
   height: 1.5em;
   overflow: hidden;
@@ -24,6 +20,5 @@ h2 {
   flex-grow: 1;
   background-color: rgb(170, 158, 177);
   border: none;
-  font-family: 'Caveat', cursive;
   outline: none;
 }
